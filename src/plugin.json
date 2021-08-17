@@ -1,0 +1,7 @@
+{
+  "id": "yesoreyeram-starwars-datasource",
+  "name": "Star Wars",
+  "type": "datasource",
+  "description": "Star Wars datasource plugin for Grafana",
+  "metrics": true
+}

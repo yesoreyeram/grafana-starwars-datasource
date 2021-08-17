@@ -1,0 +1,21 @@
+{
+  "name": "grafana-starwars-datasource",
+  "version": "0.0.1",
+  "description": "Star Wars datasource plugin for Grafana",
+  "main": "dist/module.js",
+  "scripts": {
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "test": "grafana-toolkit plugin:test",
+    "build": "grafana-toolkit plugin:build"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@grafana/runtime": "8.1.1",
+    "@grafana/data": "8.1.1",
+    "@grafana/ui": "8.1.1",
+    "@grafana/toolkit": "8.1.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
