@@ -1,0 +1,33 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      render: shell
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Provide steps to reproduce the issue.
+      render: shell
+  - type: textarea
+    id: sample
+    attributes:
+      label: Sample Data
+      description: Provide a [link](https://gist.github.com) for sample data, or provide sample data bellow. If require attach screenshots
+      render: shell
+  - type: input
+    id: grafana-version
+    attributes:
+      label: Grafana version
+      description: Grafana version
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Plugin version
+      description: Plugin version
